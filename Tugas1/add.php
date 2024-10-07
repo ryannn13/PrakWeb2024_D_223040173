@@ -54,47 +54,8 @@ if (isset($_POST["submit"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tambah Buku</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        .sidebar {
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 250px;
-            background: #343a40;
-            color: white;
-        }
-        .sidebar a {
-            color: white;
-            text-decoration: none;
-        }
-        .sidebar a:hover {
-            background: #495057;
-        }
-        .content {
-            margin-left: 260px;
-            padding: 20px;
-        }
-    </style>
 </head>
 <body>
-<div class="sidebar">
-        <h3 class="text-center">Admin Dashboard</h3>
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.php">Data Buku</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="add.php">Tambah Buku</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="edit.php">Edit Buku</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="hapus.php">Hapus Buku</a>
-            </li>
-        </ul>
-    </div>
     <div class="container mt-5">
         <h1>Tambah Data Buku</h1>
         <form action="" method="POST">
